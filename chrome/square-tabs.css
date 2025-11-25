@@ -108,6 +108,9 @@ tab-group[collapsed]:has(+ .tabbrowser-tab[selected="true"]:not([hidden])) .tab-
   margin-inline-start: 0px !important;
   padding-inline-end: 0px !important;
 }
+.tab-group-line {
+  width: 100%;
+}
 
 /* remove space between pinned tabs and regular tabs */
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])[orient="horizontal"] > #tabbrowser-arrowscrollbox > .tabbrowser-tab:nth-child(1 of :not([pinned], [hidden])) {
