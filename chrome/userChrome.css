@@ -10,13 +10,14 @@
 @import url(csshacks/iconized-content-context-menu.css);
 
 /* urlbar border */
-#urlbar:focus-within > #urlbar-background {
+#urlbar:focus-within > .urlbar-background {
   border-color: var(--custom-accent-color) !important;
 }
-#urlbar-background {
+.urlbar-background {
   transition: border-color 0.5s ease !important;
+  border-radius: 0px !important;
 }
-#urlbar:hover #urlbar-background {
+#urlbar:hover .urlbar-background {
   border-color: var(--custom-accent-color) !important;
 }
 
