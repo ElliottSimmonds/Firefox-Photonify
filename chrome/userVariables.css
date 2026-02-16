@@ -20,8 +20,14 @@
   --tab-min-height: 33px !important;
   --tab-group-line-toolbar-border-distance: 0px !important;
   --tabs-navbar-shadow-size: 1px !important;
-
   --arrowpanel-menuitem-margin-inline: 4px !important;
   --arrowpanel-menuitem-padding-inline: 4px !important;
   --panel-subview-body-padding: 4px 0 !important;
+  --toolbarbutton-border-radius: 0px !important;
+  --urlbar-inner-border-radius: 0px !important;
+  --button-border-radius: 0px !important;
+
+  --menuitem-border-radius: 0px !important;
+  --panel-border-radius: 0px !important;
+  --arrowpanel-menuitem-border-radius: 0px !important;
 }
